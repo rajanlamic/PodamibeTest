@@ -1,0 +1,3 @@
+Homepage Test
+    http://localhost:3000/ 320x600
+            check   ./spec/functional/gspec/homepage.gspec

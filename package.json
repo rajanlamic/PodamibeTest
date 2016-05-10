@@ -1,0 +1,19 @@
+{
+  "name": "podamibetest",
+  "version": "1.0.0",
+  "description": "Just test",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajanlamic/PodamibeTest.git"
+  },
+  "author": "Rajan Test",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajanlamic/PodamibeTest/issues"
+  },
+  "homepage": "https://github.com/rajanlamic/PodamibeTest#readme"
+}

@@ -1,0 +1,11 @@
+about us
+
+
+//Do following to make jasmine work on node
+// https://github.com/jasmine/jasmine-npm
+// jasmine init after installing npm install jasmine -g
+
+// sudo npm install -g galenframework-cli
+
+
+// galen test spec\functional\gspec\main.test --htmlreport report

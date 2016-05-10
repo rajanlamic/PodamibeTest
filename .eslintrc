@@ -1,0 +1,43 @@
+{
+  "env": {
+    //enable nodejs environment
+    "node": true,
+
+    //enable browser environment
+    "browser": true,
+    "es6": true
+  },
+  "globals": {
+    //place settings for globals here, such as
+    //"exampleGlobalVariable": true
+  },
+  "rules": {
+    //enable ESLint rules, such as
+    "quotes": [2, "single"],
+    "eqeqeq": [2, "smart"],
+    "strict": 0,
+    "curly": [2, "multi-line"],
+    "no-underscore-dangle": 0,
+    "camelcase": [2, {properties: "never"}],
+    "no-mixed-requires": 0,
+    "no-multi-spaces": [2, { exceptions: { "VariableDeclarator": true } }],
+    "key-spacing": [2, { "align": "colon" }],
+    "no-alert": 0,
+    "new-cap": 0,
+
+    // React rules copied from https://github.com/yannickcr/eslint-plugin-react
+    "react/jsx-no-undef": 1,
+    "react/jsx-uses-react": 1,
+    "react/jsx-uses-vars": 1,
+    "react/no-unknown-property": 1
+  },
+  "ecmaFeatures": {
+      "jsx": true,
+      "blockBindings": true,
+      "modules": true
+  },
+  "plugins": [
+    //you can put plugins here
+    "react"
+  ]
+}

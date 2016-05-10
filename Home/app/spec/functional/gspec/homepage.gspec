@@ -1,0 +1,6 @@
+@objects
+    header  xpath   /html/body/h1
+
+= main section =
+    header:
+        text contains "Express JS"
