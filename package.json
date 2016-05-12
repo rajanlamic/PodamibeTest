@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/rajanlamic/PodamibeTest/issues"
   },
-  "homepage": "https://github.com/rajanlamic/PodamibeTest#readme"
+  "homepage": "https://github.com/rajanlamic/PodamibeTest#readme",
+  "dependencies": {
+    "fs": "0.0.2",
+    "gulp": "^3.9.1",
+    "gulp-nightwatch": "^0.2.9",
+    "nightwatch": "^0.8.18"
+  }
 }

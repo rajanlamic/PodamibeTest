@@ -1,0 +1,49 @@
+17:29:40.084 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to e2e/lib/chromedriver.exe
+17:29:40.509 INFO - Java: Oracle Corporation 25.73-b02
+17:29:40.509 INFO - OS: Windows 8.1 6.3 amd64
+17:29:40.509 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+17:29:40.556 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:29:40.556 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+17:29:40.572 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN8_1
+17:29:40.572 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+17:29:40.572 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+17:29:41.041 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+17:29:41.041 INFO - Selenium Server is up and running
+17:29:41.340 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Google, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+17:29:41.340 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Google, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver (v2.9.248315) on port 44641
+17:29:42.616 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Google, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+17:29:42.637 INFO - Executing: [get: http://www.google.com])
+17:29:46.432 INFO - Done: [get: http://www.google.com]
+17:29:46.440 INFO - Executing: [find elements: By.cssSelector: body])
+17:29:46.468 INFO - Done: [find elements: By.cssSelector: body]
+17:29:46.473 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on WIN8_1 (c770f947d5bdb905cc9a18b59c32ddd1)] -> css selector: body]])
+17:29:46.492 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on WIN8_1 (c770f947d5bdb905cc9a18b59c32ddd1)] -> css selector: body]]
+17:29:46.498 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+17:29:46.512 INFO - Done: [find element: By.cssSelector: input[type=text]]
+17:29:46.516 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on WIN8_1 (c770f947d5bdb905cc9a18b59c32ddd1)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h]])
+17:29:46.561 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on WIN8_1 (c770f947d5bdb905cc9a18b59c32ddd1)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h]]
+17:29:46.568 INFO - Executing: [find elements: By.cssSelector: button[name=btnG]])
+17:29:46.614 INFO - Done: [find elements: By.cssSelector: button[name=btnG]]
+17:29:46.618 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on WIN8_1 (c770f947d5bdb905cc9a18b59c32ddd1)] -> css selector: button[name=btnG]]])
+17:29:46.635 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on WIN8_1 (c770f947d5bdb905cc9a18b59c32ddd1)] -> css selector: button[name=btnG]]]
+17:29:46.640 INFO - Executing: [find element: By.cssSelector: button[name=btnG]])
+17:29:46.656 INFO - Done: [find element: By.cssSelector: button[name=btnG]]
+17:29:46.660 INFO - Executing: [click: 2 [[ChromeDriver: chrome on WIN8_1 (c770f947d5bdb905cc9a18b59c32ddd1)] -> css selector: button[name=btnG]]])
+17:29:46.710 INFO - Done: [click: 2 [[ChromeDriver: chrome on WIN8_1 (c770f947d5bdb905cc9a18b59c32ddd1)] -> css selector: button[name=btnG]]]
+17:29:47.717 INFO - Executing: [execute script: return window.screen.height;, []])
+17:29:47.853 INFO - Done: [execute script: return window.screen.height;, []]
+17:29:47.860 INFO - Executing: [fetching available log types])
+17:29:47.866 INFO - Done: [fetching available log types]
+17:29:47.873 INFO - Executing: [fetching logs for: browser])
+17:29:47.877 INFO - Done: [fetching logs for: browser]
+17:29:47.884 INFO - Executing: [find element: By.cssSelector: #main])
+17:29:47.898 INFO - Done: [find element: By.cssSelector: #main]
+17:29:47.902 INFO - Executing: [get text: 3 [[ChromeDriver: chrome on WIN8_1 (c770f947d5bdb905cc9a18b59c32ddd1)] -> css selector: #main]])
+17:29:48.391 INFO - Done: [get text: 3 [[ChromeDriver: chrome on WIN8_1 (c770f947d5bdb905cc9a18b59c32ddd1)] -> css selector: #main]]
+17:29:48.397 INFO - Executing: [take screenshot])
+17:29:48.630 INFO - Done: [take screenshot]
+17:29:48.679 INFO - Executing: [delete session: 0228a266-eac7-42eb-87a1-aa6e9c8a0e9f])
+17:29:49.903 INFO - Done: [delete session: 0228a266-eac7-42eb-87a1-aa6e9c8a0e9f]
