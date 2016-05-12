@@ -4,7 +4,7 @@ console.log('about about');
 
 var About = React.createClass({
     onChange: function() {
-        alert('clicked edited start');
+        alert('clicked edited start compor r k f k ed');
     },
     render: function() {
         return (<div>

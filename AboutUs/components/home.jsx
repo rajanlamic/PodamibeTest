@@ -1,7 +1,13 @@
-var React = require('react');
+//const React             = require( 'react' );
 
-export default React.createClass({
+import React from 'react';
+
+console.log('home home');
+
+var Login = React.createClass({
     render: function() {
-        '<div>HOME</div>'
+        return (<div>HOME reacted</div>);
     }
-})
+});
+
+module.exports = Login;
