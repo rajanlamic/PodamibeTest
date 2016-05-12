@@ -93,3 +93,10 @@ gulp.task('browserify', function() {
         .pipe(sourcemaps.write("."))
         .pipe( gulp.dest('./public/js') );
 });
+
+gulp.task('watch', function () {
+    gulp.watch('./*/*.js*', ['start', 'browserify']);
+});
+
+
+gulp.task('default', ['watch']);
