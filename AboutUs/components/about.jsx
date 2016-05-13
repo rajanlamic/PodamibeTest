@@ -4,12 +4,13 @@ console.log('about about');
 
 var About = React.createClass({
     onChange: function() {
-        alert('clicked edited start compor r k f k ed');
+        alert('clicked edited del s r k');
     },
     render: function() {
         return (<div>
-            <input onChange={this.onChange} value='input text' />
-            ABOUT us reacted s watch after
+            <input type="text" id="aboutTxt" onChange={this.onChange} value='nightwatch_' />
+            <input type="button" id="aboutBtn" value="ABOUT us reacted s watch after" />
+            about us
         </div>);
     }
 });
