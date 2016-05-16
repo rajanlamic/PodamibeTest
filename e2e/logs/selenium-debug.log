@@ -1,63 +1,35 @@
-16:53:56.593 INFO - Launching a standalone Selenium Server
+13:12:59.710 INFO - Launching a standalone Selenium Server
 Setting system property webdriver.chrome.driver to e2e/lib/chromedriver.exe
-16:53:57.037 INFO - Java: Oracle Corporation 25.73-b02
-16:53:57.037 INFO - OS: Windows 8.1 6.3 amd64
-16:53:57.046 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
-16:53:57.100 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-16:53:57.101 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-16:53:57.112 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+13:13:00.183 INFO - Java: Oracle Corporation 25.91-b14
+13:13:00.183 INFO - OS: Windows 8.1 6.3 amd64
+13:13:00.191 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+13:13:00.239 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+13:13:00.239 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+13:13:00.246 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
 registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN8_1
-16:53:57.112 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
-16:53:57.113 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
-16:53:57.577 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-16:53:57.577 INFO - Selenium Server is up and running
-16:53:57.901 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=About Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-16:53:57.911 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=About Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver (v2.9.248315) on port 27093
-16:53:59.413 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=About Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-16:53:59.443 INFO - Executing: [get: http://localhost:3001/about])
-16:54:02.560 INFO - Done: [get: http://localhost:3001/about]
-16:54:06.580 INFO - Executing: [find elements: By.cssSelector: body])
-16:54:06.616 INFO - Done: [find elements: By.cssSelector: body]
-16:54:06.620 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on WIN8_1 (1c9d0433c462ce56c4d42b67572d824f)] -> css selector: body]])
-16:54:06.642 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on WIN8_1 (1c9d0433c462ce56c4d42b67572d824f)] -> css selector: body]]
-16:54:06.650 INFO - Executing: [find element: By.cssSelector: #app-container])
-16:54:06.665 INFO - Done: [find element: By.cssSelector: #app-container]
-16:54:06.668 INFO - Executing: [get text: 1 [[ChromeDriver: chrome on WIN8_1 (1c9d0433c462ce56c4d42b67572d824f)] -> css selector: #app-container]])
-16:54:06.690 INFO - Done: [get text: 1 [[ChromeDriver: chrome on WIN8_1 (1c9d0433c462ce56c4d42b67572d824f)] -> css selector: #app-container]]
-16:54:06.697 INFO - Executing: [find element: By.cssSelector: #aboutTxt])
-16:54:06.712 INFO - Done: [find element: By.cssSelector: #aboutTxt]
-16:54:06.715 INFO - Executing: [get element attribute: 2 [[ChromeDriver: chrome on WIN8_1 (1c9d0433c462ce56c4d42b67572d824f)] -> css selector: #aboutTxt], value])
-16:54:06.728 INFO - Done: [get element attribute: 2 [[ChromeDriver: chrome on WIN8_1 (1c9d0433c462ce56c4d42b67572d824f)] -> css selector: #aboutTxt], value]
-16:54:06.734 INFO - Executing: [find element: By.cssSelector: #aboutTxt])
-16:54:06.751 INFO - Done: [find element: By.cssSelector: #aboutTxt]
-16:54:06.757 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on WIN8_1 (1c9d0433c462ce56c4d42b67572d824f)] -> css selector: #aboutTxt], [_, n, i, g, h, t, w, a, t, c, h, _]])
-16:54:06.814 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on WIN8_1 (1c9d0433c462ce56c4d42b67572d824f)] -> css selector: #aboutTxt], [_, n, i, g, h, t, w, a, t, c, h, _]]
-16:54:08.824 INFO - Executing: [find element: By.cssSelector: #aboutTxt])
-16:54:08.845 INFO - Done: [find element: By.cssSelector: #aboutTxt]
-16:54:08.855 INFO - Executing: [get element attribute: 2 [[ChromeDriver: chrome on WIN8_1 (1c9d0433c462ce56c4d42b67572d824f)] -> css selector: #aboutTxt], value])
-16:54:08.873 INFO - Done: [get element attribute: 2 [[ChromeDriver: chrome on WIN8_1 (1c9d0433c462ce56c4d42b67572d824f)] -> css selector: #aboutTxt], value]
-16:54:08.881 INFO - Executing: [delete session: bb20319e-6aad-4c7f-bd02-a2755719c905])
-16:54:10.088 INFO - Done: [delete session: bb20319e-6aad-4c7f-bd02-a2755719c905]
-16:54:10.250 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Aboutpageobject Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-16:54:10.252 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Aboutpageobject Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver (v2.9.248315) on port 12175
-16:54:11.377 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Aboutpageobject Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-16:54:11.382 INFO - Executing: [get: http://localhost:3001/about])
-16:54:14.641 INFO - Done: [get: http://localhost:3001/about]
-16:54:14.649 INFO - Executing: [get title])
-16:54:14.656 INFO - Done: [get title]
-16:54:14.670 INFO - Executing: [find element: By.cssSelector: #aboutTxt])
-16:54:14.699 INFO - Done: [find element: By.cssSelector: #aboutTxt]
-16:54:14.704 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on WIN8_1 (81716bbe80344168b812ee0a589cd630)] -> css selector: #aboutTxt]])
-16:54:14.723 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on WIN8_1 (81716bbe80344168b812ee0a589cd630)] -> css selector: #aboutTxt]]
-16:54:14.731 INFO - Executing: [find element: By.cssSelector: #aboutTxt])
-16:54:14.754 INFO - Done: [find element: By.cssSelector: #aboutTxt]
-16:54:14.759 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on WIN8_1 (81716bbe80344168b812ee0a589cd630)] -> css selector: #aboutTxt], [n, i, g, h, t, w, a, t, c, h]])
-16:54:14.821 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on WIN8_1 (81716bbe80344168b812ee0a589cd630)] -> css selector: #aboutTxt], [n, i, g, h, t, w, a, t, c, h]]
-16:54:16.829 INFO - Executing: [find element: By.cssSelector: #aboutTxt])
-16:54:16.840 INFO - Done: [find element: By.cssSelector: #aboutTxt]
-16:54:16.844 INFO - Executing: [get element attribute: 0 [[ChromeDriver: chrome on WIN8_1 (81716bbe80344168b812ee0a589cd630)] -> css selector: #aboutTxt], value])
-16:54:16.864 INFO - Done: [get element attribute: 0 [[ChromeDriver: chrome on WIN8_1 (81716bbe80344168b812ee0a589cd630)] -> css selector: #aboutTxt], value]
-16:54:16.871 INFO - Executing: [delete session: 3d5c3804-fa61-4bc2-b687-4df5d7acae51])
-16:54:18.259 INFO - Done: [delete session: 3d5c3804-fa61-4bc2-b687-4df5d7acae51]
+13:13:00.246 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+13:13:00.247 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+13:13:00.693 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+13:13:00.693 INFO - Selenium Server is up and running
+13:13:01.598 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=About Page, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+13:13:01.612 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=About Page, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver (v2.9.248315) on port 2240
+13:13:03.468 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=About Page, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+13:13:03.486 INFO - Executing: [get: http://localhost:3001/about])
+13:13:06.574 INFO - Done: [get: http://localhost:3001/about]
+13:13:06.601 INFO - Executing: [get title])
+13:13:06.607 INFO - Done: [get title]
+13:13:06.618 INFO - Executing: [find element: By.cssSelector: #aboutTxt])
+13:13:06.647 INFO - Done: [find element: By.cssSelector: #aboutTxt]
+13:13:06.653 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on WIN8_1 (a4f3ae93ab3998e7d35824c45fa753d4)] -> css selector: #aboutTxt]])
+13:13:06.673 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on WIN8_1 (a4f3ae93ab3998e7d35824c45fa753d4)] -> css selector: #aboutTxt]]
+13:13:06.680 INFO - Executing: [find element: By.cssSelector: #aboutTxt])
+13:13:06.696 INFO - Done: [find element: By.cssSelector: #aboutTxt]
+13:13:06.701 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on WIN8_1 (a4f3ae93ab3998e7d35824c45fa753d4)] -> css selector: #aboutTxt], [n, i, g, h, t, w, a, t, c, h]])
+13:13:06.760 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on WIN8_1 (a4f3ae93ab3998e7d35824c45fa753d4)] -> css selector: #aboutTxt], [n, i, g, h, t, w, a, t, c, h]]
+13:13:08.771 INFO - Executing: [find element: By.cssSelector: #aboutTxt])
+13:13:08.796 INFO - Done: [find element: By.cssSelector: #aboutTxt]
+13:13:08.806 INFO - Executing: [get element attribute: 0 [[ChromeDriver: chrome on WIN8_1 (a4f3ae93ab3998e7d35824c45fa753d4)] -> css selector: #aboutTxt], value])
+13:13:08.832 INFO - Done: [get element attribute: 0 [[ChromeDriver: chrome on WIN8_1 (a4f3ae93ab3998e7d35824c45fa753d4)] -> css selector: #aboutTxt], value]
+13:13:08.862 INFO - Executing: [delete session: ba72f972-ab87-4ba3-b5a0-1fba91c9256a])
+13:13:10.050 INFO - Done: [delete session: ba72f972-ab87-4ba3-b5a0-1fba91c9256a]

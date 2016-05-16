@@ -2,6 +2,7 @@
  * Created by rajan.lamichhane on 13/05/2016.
  */
 
+'strict mode';
 
 //module.exports = {
 //    'about page object test' : function (browser) {
@@ -20,17 +21,44 @@
 
 
 module.exports = {
-    'about page object text': function (client) {
-        var about = client.page.about();
+    page: null,
+    load: function (browser) {
+        this.page = browser.page.about();
+        this.page.navigate();
+        //var about = browser.page.about();
+        //about.navigate();
+    },
+    change : function(browser) {
+        //var about = browser.page.about();
+        //
+        //about
+        //    .assert.title('mytitle')
+        //    .assert.visible('@aboutTxtE')
+        //    .setValue('@aboutTxtE', 'nightwatch');
+        //
+        //browser.pause(2000);
+        //about.assert.valueContains('@aboutTxtE', 'nightwatch_nightwatch');
 
-        about.navigate()
-            .assert.title('mytitle')
-            .assert.visible('@aboutTxtE')
-            .setValue('@aboutTxtE', 'nightwatch');
+        this.page
+                .assert.title('mytitle')
+                .assert.visible('@aboutTxtE')
+                .setValue('@aboutTxtE', 'nightwatch');
 
-        client.pause(2000);
-        about.assert.valueContains('@aboutTxtE', 'nightwatch_nightwatch');
+        browser.pause(2000);
+        this.page.assert.valueContains('@aboutTxtE', 'nightwatch_nightwatch');
 
-        client.end();
     }
+    //'about page object text': function (client) {
+    //    var about = client.page.about();
+    //
+    //    about.navigate()
+    //        .assert.title('mytitle')
+    //        .assert.visible('@aboutTxtE')
+    //        .setValue('@aboutTxtE', 'nightwatch');
+    //
+    //    client.pause(2000);
+    //    about.assert.valueContains('@aboutTxtE', 'nightwatch_nightwatch');
+    //
+    //    client.end();
+    //}
 };
