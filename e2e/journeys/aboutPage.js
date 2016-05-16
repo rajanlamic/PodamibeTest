@@ -6,7 +6,7 @@ var aboutTest = require('../tests/aboutpageobjectTest');
 var utils = require('../utils/utils');
 
 module.exports = {
-    'about test page' : aboutTest.load,
-    'about test text box change value' : aboutTest.change,
+    'load page' : aboutTest.load,
+    'text box value change' : aboutTest.change,
     'end browser' : utils.endBrowser
 }
