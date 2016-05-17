@@ -1,35 +1,51 @@
-13:12:59.710 INFO - Launching a standalone Selenium Server
+17:24:57.274 INFO - Launching a standalone Selenium Server
 Setting system property webdriver.chrome.driver to e2e/lib/chromedriver.exe
-13:13:00.183 INFO - Java: Oracle Corporation 25.91-b14
-13:13:00.183 INFO - OS: Windows 8.1 6.3 amd64
-13:13:00.191 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
-13:13:00.239 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-13:13:00.239 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-13:13:00.246 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+17:24:57.790 INFO - Java: Oracle Corporation 25.91-b14
+17:24:57.791 INFO - OS: Windows 8.1 6.3 amd64
+17:24:57.802 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+17:24:57.855 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:24:57.855 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+17:24:57.864 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
 registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN8_1
-13:13:00.246 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
-13:13:00.247 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
-13:13:00.693 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-13:13:00.693 INFO - Selenium Server is up and running
-13:13:01.598 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=About Page, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-13:13:01.612 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=About Page, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver (v2.9.248315) on port 2240
-13:13:03.468 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=About Page, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-13:13:03.486 INFO - Executing: [get: http://localhost:3001/about])
-13:13:06.574 INFO - Done: [get: http://localhost:3001/about]
-13:13:06.601 INFO - Executing: [get title])
-13:13:06.607 INFO - Done: [get title]
-13:13:06.618 INFO - Executing: [find element: By.cssSelector: #aboutTxt])
-13:13:06.647 INFO - Done: [find element: By.cssSelector: #aboutTxt]
-13:13:06.653 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on WIN8_1 (a4f3ae93ab3998e7d35824c45fa753d4)] -> css selector: #aboutTxt]])
-13:13:06.673 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on WIN8_1 (a4f3ae93ab3998e7d35824c45fa753d4)] -> css selector: #aboutTxt]]
-13:13:06.680 INFO - Executing: [find element: By.cssSelector: #aboutTxt])
-13:13:06.696 INFO - Done: [find element: By.cssSelector: #aboutTxt]
-13:13:06.701 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on WIN8_1 (a4f3ae93ab3998e7d35824c45fa753d4)] -> css selector: #aboutTxt], [n, i, g, h, t, w, a, t, c, h]])
-13:13:06.760 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on WIN8_1 (a4f3ae93ab3998e7d35824c45fa753d4)] -> css selector: #aboutTxt], [n, i, g, h, t, w, a, t, c, h]]
-13:13:08.771 INFO - Executing: [find element: By.cssSelector: #aboutTxt])
-13:13:08.796 INFO - Done: [find element: By.cssSelector: #aboutTxt]
-13:13:08.806 INFO - Executing: [get element attribute: 0 [[ChromeDriver: chrome on WIN8_1 (a4f3ae93ab3998e7d35824c45fa753d4)] -> css selector: #aboutTxt], value])
-13:13:08.832 INFO - Done: [get element attribute: 0 [[ChromeDriver: chrome on WIN8_1 (a4f3ae93ab3998e7d35824c45fa753d4)] -> css selector: #aboutTxt], value]
-13:13:08.862 INFO - Executing: [delete session: ba72f972-ab87-4ba3-b5a0-1fba91c9256a])
-13:13:10.050 INFO - Done: [delete session: ba72f972-ab87-4ba3-b5a0-1fba91c9256a]
+17:24:57.865 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+17:24:57.865 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+17:24:58.338 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+17:24:58.338 INFO - Selenium Server is up and running
+17:24:58.797 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+17:24:58.834 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver (v2.9.248315) on port 14901
+17:25:00.614 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+17:25:00.632 INFO - Executing: [get: http://asm1.stbc2.jstest2.net/shop/gb/groceries])
+17:25:04.866 INFO - Done: [get: http://asm1.stbc2.jstest2.net/shop/gb/groceries]
+17:25:05.894 INFO - Executing: [find element: By.cssSelector: #Rhs_signIn input[type="submit"]])
+17:25:05.924 INFO - Done: [find element: By.cssSelector: #Rhs_signIn input[type="submit"]]
+17:25:05.929 INFO - Executing: [click: 0 [[ChromeDriver: chrome on WIN8_1 (198bdc9703d1a639c78c80b05c43e5df)] -> css selector: #Rhs_signIn input[type="submit"]]])
+17:25:05.964 INFO - Done: [click: 0 [[ChromeDriver: chrome on WIN8_1 (198bdc9703d1a639c78c80b05c43e5df)] -> css selector: #Rhs_signIn input[type="submit"]]]
+17:25:06.981 INFO - Executing: [find element: By.cssSelector: #logonId])
+17:25:07.791 INFO - Done: [find element: By.cssSelector: #logonId]
+17:25:07.796 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on WIN8_1 (198bdc9703d1a639c78c80b05c43e5df)] -> css selector: #logonId], [c, c, u, s, e, r, @, t, e, s, t, ., c, o, m]])
+17:25:07.854 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on WIN8_1 (198bdc9703d1a639c78c80b05c43e5df)] -> css selector: #logonId], [c, c, u, s, e, r, @, t, e, s, t, ., c, o, m]]
+17:25:07.861 INFO - Executing: [find element: By.cssSelector: #logonPassword])
+17:25:07.921 INFO - Done: [find element: By.cssSelector: #logonPassword]
+17:25:07.926 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on WIN8_1 (198bdc9703d1a639c78c80b05c43e5df)] -> css selector: #logonPassword], [P, a, s, s, w, o, r, d, 1]])
+17:25:08.165 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on WIN8_1 (198bdc9703d1a639c78c80b05c43e5df)] -> css selector: #logonPassword], [P, a, s, s, w, o, r, d, 1]]
+17:25:08.174 INFO - Executing: [find element: By.cssSelector: #signIn input[type="submit"]])
+17:25:08.199 INFO - Done: [find element: By.cssSelector: #signIn input[type="submit"]]
+17:25:08.204 INFO - Executing: [click: 3 [[ChromeDriver: chrome on WIN8_1 (198bdc9703d1a639c78c80b05c43e5df)] -> css selector: #signIn input[type="submit"]]])
+17:25:08.232 INFO - Done: [click: 3 [[ChromeDriver: chrome on WIN8_1 (198bdc9703d1a639c78c80b05c43e5df)] -> css selector: #signIn input[type="submit"]]]
+17:25:10.248 INFO - Executing: [find element: By.cssSelector: #homePage])
+17:25:10.323 INFO - Done: [find element: By.cssSelector: #homePage]
+17:25:10.328 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on WIN8_1 (198bdc9703d1a639c78c80b05c43e5df)] -> css selector: #homePage]])
+17:25:10.401 INFO - Done: [is displayed: 4 [[ChromeDriver: chrome on WIN8_1 (198bdc9703d1a639c78c80b05c43e5df)] -> css selector: #homePage]]
+17:25:10.410 INFO - Executing: [find element: By.cssSelector: #homePage])
+17:25:10.426 INFO - Done: [find element: By.cssSelector: #homePage]
+17:25:10.430 INFO - Executing: [get text: 4 [[ChromeDriver: chrome on WIN8_1 (198bdc9703d1a639c78c80b05c43e5df)] -> css selector: #homePage]])
+17:25:10.816 INFO - Done: [get text: 4 [[ChromeDriver: chrome on WIN8_1 (198bdc9703d1a639c78c80b05c43e5df)] -> css selector: #homePage]]
+17:25:10.849 INFO - Executing: [execute script: return window.digitalData;, []])
+17:25:10.863 INFO - Done: [execute script: return window.digitalData;, []]
+17:25:11.885 INFO - Executing: [find element: By.cssSelector: body])
+17:25:11.931 INFO - Done: [find element: By.cssSelector: body]
+17:25:11.931 INFO - Executing: [get text: 4 [[ChromeDriver: chrome on WIN8_1 (198bdc9703d1a639c78c80b05c43e5df)] -> css selector: #homePage]])
+17:25:12.207 INFO - Done: [get text: 4 [[ChromeDriver: chrome on WIN8_1 (198bdc9703d1a639c78c80b05c43e5df)] -> css selector: #homePage]]
+17:25:12.244 INFO - Executing: [delete session: cc2f121d-e411-4312-8e45-41535e1df938])
+17:25:13.561 INFO - Done: [delete session: cc2f121d-e411-4312-8e45-41535e1df938]
