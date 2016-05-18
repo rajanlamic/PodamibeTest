@@ -5,15 +5,15 @@
 
   <testsuite name="login"
     errors="0" failures="0" hostname="" id="" package="login" skipped="0"
-    tests="4" time="8.181" timestamp="Wed, 18 May 2016 12:11:44 GMT">
+    tests="4" time="9.464" timestamp="Wed, 18 May 2016 14:13:58 GMT">
   
-    <testcase name="load ASM1" time="5.717" assertions="0">
+    <testcase name="load ASM1" time="6.944" assertions="0">
     </testcase>
   
-    <testcase name="save digital Data" time="0.02100" assertions="0">
+    <testcase name="save digital Data" time="0.02200" assertions="0">
     </testcase>
   
-    <testcase name="check digital Data" time="1.290" assertions="3">
+    <testcase name="check digital Data" time="1.303" assertions="3">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="close browser" time="1.153" assertions="0">
+    <testcase name="close browser" time="1.195" assertions="0">
     </testcase>
   
   

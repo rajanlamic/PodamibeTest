@@ -9,7 +9,7 @@ var _ = require('underscore');
 
 module.exports = {
     page: null,
-    digitalData: {},
+    actual: {},
     load: function(browser) {
         this.page = browser.page.login();
         this.page.navigate();
@@ -39,7 +39,7 @@ module.exports = {
         var self = this;
         browser
             .execute("return window.digitalData;", [], function(response) {
-                self.digitalData = response.value;
+                self.actual = response.value;
                 fs.writeFile("e2e/asm1/actual/homepage.json", JSON.stringify(response.value, null, 2) , 'utf8', function(err) {
                     if(err) {
                         return console.log(err);
@@ -54,77 +54,74 @@ module.exports = {
         var self = this;
         browser.getText("body", function(result) {
             this.assert.equal('is pageInfo is property of page', 'is pageInfo is property of page');
-            this.assert.equal(self.digitalData.page.hasOwnProperty('pageInfo'), true);
-            this.assert.equal(self.digitalData.page.pageInfo.pageName, "homePage");
+            this.assert.equal(self.actual.page.hasOwnProperty('pageInfo'), true);
+            this.assert.equal(self.actual.page.pageInfo.pageName, "homePage");
         });
 
-        expect('foo').to.equal('foo');
-
         // KF = Key Fixed
+        // KA = Key Any | Optional
         // VF = Value Fixed
         // VA = Value any
 
+        //things to remember
+        // types are checked automatically so this covers the VA - value any
+        // value with fixed are checked and displayed
+        // key presence are checked
+
         var expectedValueFormat = {
-            "KF.page": {
-                "KF.pageInfo": {
-                    "KF.VF.pageName": "homePage"
+            "KF|page": {
+                "KF|pageInfo": {
+                    "KF|VF|pageName": "homePage"
                 },
-                "KF.VF.events": []
+                "KF|events": []
             },
-            "KF.VF.event": [],
-            "KF.user": {
-                "KF.profile": {
-                    "KF.profileInfo": {
-                        "KF.VA.websphereId": "1444230441570-6"
+            //"KA.optKey" : [],
+            "KF|event": [],
+            "KF|user": {
+                "KF|profile": {
+                    "KF|profileInfo": {
+                        "KF|VA|websphereId": "1444230441570-6"
                     }
                 }
             }
         };
 
-        var actualValue = {
-            "page": {
-                "pageInfo": {
-                    "pageName": "homePage"
-                },
-                "events": []
-            },
-            "event": [],
-            "user": {
-                "profile": {
-                    "profileInfo": {
-                        "websphereId": "1444230441570-6"
-                    }
-                }
+        var expected;
+        fs.readFile('e2e/asm1/expected/homepage.json', 'utf8', function (err,data) {
+            if (err) {
+                return console.log(err);
             }
-        };
+            console.log(data);
+            expected = data;
+        });
 
         var assetDigitalData = function(value, key, list, actualValue) {
 
             // check for key preset or not
             if(key) {
-                var keyFixed = key.indexOf('KF') !== -1 ? true : false;
-                var valueFixed = key.indexOf('VF') !== -1 ? true : false;
-                var valueAny = key.indexOf('VA') !== -1 ? true : false;
-                var cleanKey;
-                var cleanValue;
+                var keyFixed = key.indexOf('KF|') !== -1 ? true : false;
+                var valueFixed = key.indexOf('VF|') !== -1 ? true : false;
+                var valueAny = key.indexOf('VA|') !== -1 ? true : false;
+                var keyOptional = key.indexOf('KA|') !== -1 ? true : false;
+                var cleanKey = key;
 
-                if(keyFixed) cleanKey = key.replace("KF.", "");
-                if(valueFixed) cleanKey = cleanKey.replace("VF.", "");
-                if(valueAny) cleanKey = cleanKey.replace("VA.", "");
-                //cleanKey = key;
+                if(keyFixed) cleanKey = cleanKey.replace("KF|", "");
+                if(valueFixed) cleanKey = cleanKey.replace("VF|", "");
+                if(valueAny) cleanKey = cleanKey.replace("VA|", "");
+                if(keyOptional) cleanKey = cleanKey.replace("KA|", "");
 
-                //if(keyFixed && valueFixed) {
-                //    cleanKey = key.replace("KF.", "").replace("VF.", "");
-                //} else if(keyFixed && valueAny) {
-                //    cleanKey = key.replace("KF.", "").replace("VA.", "");
-                //} else if(keyFixed) {
-                //    cleanKey =  key.replace("KF.", "");
-                //} else if(valueFixed) {
-                //    cleanKey = key.replace("VF.", "");
-                //}
+                if(!keyOptional) expect(actualValue).to.have.property(cleanKey);
+                console.log('checking key ' + cleanKey + ' present .............. OK');
+            }
 
-                expect(actualValue).to.have.any.property(cleanKey);
-                console.log('checking key ' + cleanKey + '.............. OK');
+            if(!keyOptional) expect(typeof actualValue[cleanKey]).to.equal(typeof list[key]);
+            console.log('checking key ' + cleanKey + ' type .............. OK');
+
+            if(value) {
+                if(!keyOptional && valueFixed) {
+                    expect(actualValue[cleanKey]).to.equal(list[key]);
+                    console.log('checking key ' + cleanKey + ' value ' + actualValue[cleanKey] + ' .............. OK');
+                }
             }
 
             var nextList = list[key];
@@ -133,13 +130,9 @@ module.exports = {
                     assetDigitalData(valueNext, keyNext, listNext, actualValue[cleanKey] );
                 });
             }
-
-            //console.log('key', key);
-            //console.log('value', value);
-            //console.log('list', list);
         }
         _.each(expectedValueFormat, function(value, key, list) {
-            assetDigitalData(value, key, list, actualValue);
+            assetDigitalData(value, key, list, self.actual);
         });
     }
 }
