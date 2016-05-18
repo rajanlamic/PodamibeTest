@@ -1,39 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="7">
+            tests="4">
 
   <testsuite name="login"
     errors="0" failures="0" hostname="" id="" package="login" skipped="0"
-    tests="7" time="15.64" timestamp="Wed, 18 May 2016 10:06:47 GMT">
+    tests="4" time="8.181" timestamp="Wed, 18 May 2016 12:11:44 GMT">
   
-    <testcase name="load ASM1" time="6.483" assertions="0">
+    <testcase name="load ASM1" time="5.717" assertions="0">
     </testcase>
   
-    <testcase name="click login button at RHS" time="1.139" assertions="0">
+    <testcase name="save digital Data" time="0.02100" assertions="0">
     </testcase>
   
-    <testcase name="do login " time="2.318" assertions="0">
-    </testcase>
-  
-    <testcase name="check for homepage redirect after login" time="3.039" assertions="2">
+    <testcase name="check digital Data" time="1.290" assertions="3">
 
     
-
-    
-    </testcase>
-  
-    <testcase name="save digital Data" time="0.02500" assertions="0">
-    </testcase>
-  
-    <testcase name="check digital Data" time="1.302" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="close browser" time="1.339" assertions="0">
+    <testcase name="close browser" time="1.153" assertions="0">
     </testcase>
   
   

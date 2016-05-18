@@ -7,9 +7,9 @@ var utils = require('../../utils/utils');
 
 module.exports =  {
     'load ASM1' : loginTest.load,
-    'click login button at RHS' : loginTest.preLogin,
-    'do login ' : loginTest.login,
-    'check for homepage redirect after login' : loginTest.checkLogin,
+    //'click login button at RHS' : loginTest.preLogin,
+    //'do login ' : loginTest.login,
+    //'check for homepage redirect after login' : loginTest.checkLogin,
     'save digital Data' : loginTest.saveDigitalData,
     'check digital Data' : loginTest.checkDigitalData,
     'close browser' : utils.endBrowser

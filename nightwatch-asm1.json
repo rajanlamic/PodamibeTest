@@ -39,6 +39,13 @@
         "javascriptEnabled": true,
         "acceptSslCerts": true
       }
+    },
+    "unittests" : {
+      "selenium" : {
+        "start_process" : false,
+        "start_session" : false
+      },
+      "exclude" : ""
     }
   }
 }
