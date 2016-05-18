@@ -5,35 +5,35 @@
 
   <testsuite name="login"
     errors="0" failures="0" hostname="" id="" package="login" skipped="0"
-    tests="7" time="14.90" timestamp="Tue, 17 May 2016 16:24:58 GMT">
+    tests="7" time="15.64" timestamp="Wed, 18 May 2016 10:06:47 GMT">
   
-    <testcase name="load ASM1" time="6.284" assertions="0">
+    <testcase name="load ASM1" time="6.483" assertions="0">
     </testcase>
   
-    <testcase name="click login button at RHS" time="1.082" assertions="0">
+    <testcase name="click login button at RHS" time="1.139" assertions="0">
     </testcase>
   
-    <testcase name="do login " time="2.262" assertions="0">
+    <testcase name="do login " time="2.318" assertions="0">
     </testcase>
   
-    <testcase name="check for homepage redirect after login" time="2.580" assertions="2">
+    <testcase name="check for homepage redirect after login" time="3.039" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="save digital Data" time="0.02900" assertions="0">
+    <testcase name="save digital Data" time="0.02500" assertions="0">
     </testcase>
   
-    <testcase name="check digital Data" time="1.339" assertions="2">
+    <testcase name="check digital Data" time="1.302" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="close browser" time="1.326" assertions="0">
+    <testcase name="close browser" time="1.339" assertions="0">
     </testcase>
   
   
