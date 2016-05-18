@@ -1,29 +1,29 @@
-15:13:57.457 INFO - Launching a standalone Selenium Server
+16:15:25.235 INFO - Launching a standalone Selenium Server
 Setting system property webdriver.chrome.driver to e2e/lib/chromedriver.exe
-15:13:57.884 INFO - Java: Oracle Corporation 25.91-b14
-15:13:57.884 INFO - OS: Windows 8.1 6.3 amd64
-15:13:57.884 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
-15:13:57.931 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-15:13:57.931 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-15:13:57.946 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+16:15:25.668 INFO - Java: Oracle Corporation 25.91-b14
+16:15:25.668 INFO - OS: Windows 8.1 6.3 amd64
+16:15:25.674 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+16:15:25.721 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+16:15:25.721 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+16:15:25.721 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
 registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN8_1
-15:13:57.946 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
-15:13:57.946 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
-15:13:58.400 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-15:13:58.400 INFO - Selenium Server is up and running
-15:13:58.766 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-15:13:58.782 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver (v2.9.248315) on port 47026
-15:14:00.544 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-15:14:00.564 INFO - Executing: [get: http://asm1.stbc2.jstest2.net/shop/gb/groceries])
-15:14:04.891 INFO - Done: [get: http://asm1.stbc2.jstest2.net/shop/gb/groceries]
-15:14:04.903 INFO - Executing: [take screenshot])
-15:14:05.488 INFO - Done: [take screenshot]
-15:14:05.569 INFO - Executing: [execute script: return window.digitalData;, []])
-15:14:05.579 INFO - Done: [execute script: return window.digitalData;, []]
-15:14:06.684 INFO - Executing: [find element: By.cssSelector: body])
-15:14:06.715 INFO - Done: [find element: By.cssSelector: body]
-15:14:06.722 INFO - Executing: [get text: 0 [[ChromeDriver: chrome on WIN8_1 (f808ebe8ba321351f0e537cb187b324c)] -> css selector: body]])
-15:14:06.883 INFO - Done: [get text: 0 [[ChromeDriver: chrome on WIN8_1 (f808ebe8ba321351f0e537cb187b324c)] -> css selector: body]]
-15:14:06.914 INFO - Executing: [delete session: a0c00de3-3d18-4482-b3b6-f6e800ca5e87])
-15:14:08.100 INFO - Done: [delete session: a0c00de3-3d18-4482-b3b6-f6e800ca5e87]
+16:15:25.721 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+16:15:25.721 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+16:15:26.272 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+16:15:26.272 INFO - Selenium Server is up and running
+16:15:26.696 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+16:15:26.713 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver (v2.9.248315) on port 15289
+16:15:27.992 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+16:15:28.017 INFO - Executing: [get: http://asm1.stbc2.jstest2.net/shop/gb/groceries])
+16:15:31.815 INFO - Done: [get: http://asm1.stbc2.jstest2.net/shop/gb/groceries]
+16:15:31.825 INFO - Executing: [take screenshot])
+16:15:32.259 INFO - Done: [take screenshot]
+16:15:32.383 INFO - Executing: [execute script: return window.digitalData;, []])
+16:15:32.391 INFO - Done: [execute script: return window.digitalData;, []]
+16:15:33.513 INFO - Executing: [find element: By.cssSelector: body])
+16:15:33.588 INFO - Done: [find element: By.cssSelector: body]
+16:15:33.593 INFO - Executing: [get text: 0 [[ChromeDriver: chrome on WIN8_1 (9da7b3c261e4a5b297ff3b2ef0d4ffc6)] -> css selector: body]])
+16:15:33.736 INFO - Done: [get text: 0 [[ChromeDriver: chrome on WIN8_1 (9da7b3c261e4a5b297ff3b2ef0d4ffc6)] -> css selector: body]]
+16:15:33.758 INFO - Executing: [delete session: 95addc16-614a-4c71-a060-71ba5d9065b7])
+16:15:34.975 INFO - Done: [delete session: 95addc16-614a-4c71-a060-71ba5d9065b7]
