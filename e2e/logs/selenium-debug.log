@@ -1,29 +1,246 @@
-16:15:25.235 INFO - Launching a standalone Selenium Server
+15:04:22.408 INFO - Launching a standalone Selenium Server
 Setting system property webdriver.chrome.driver to e2e/lib/chromedriver.exe
-16:15:25.668 INFO - Java: Oracle Corporation 25.91-b14
-16:15:25.668 INFO - OS: Windows 8.1 6.3 amd64
-16:15:25.674 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
-16:15:25.721 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-16:15:25.721 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-16:15:25.721 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+15:04:23.174 INFO - Java: Oracle Corporation 25.91-b14
+15:04:23.174 INFO - OS: Windows 8.1 6.3 amd64
+15:04:23.193 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+15:04:23.289 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+15:04:23.290 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+15:04:23.300 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
 registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN8_1
-16:15:25.721 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
-16:15:25.721 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
-16:15:26.272 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-16:15:26.272 INFO - Selenium Server is up and running
-16:15:26.696 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-16:15:26.713 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver (v2.9.248315) on port 15289
-16:15:27.992 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-16:15:28.017 INFO - Executing: [get: http://asm1.stbc2.jstest2.net/shop/gb/groceries])
-16:15:31.815 INFO - Done: [get: http://asm1.stbc2.jstest2.net/shop/gb/groceries]
-16:15:31.825 INFO - Executing: [take screenshot])
-16:15:32.259 INFO - Done: [take screenshot]
-16:15:32.383 INFO - Executing: [execute script: return window.digitalData;, []])
-16:15:32.391 INFO - Done: [execute script: return window.digitalData;, []]
-16:15:33.513 INFO - Executing: [find element: By.cssSelector: body])
-16:15:33.588 INFO - Done: [find element: By.cssSelector: body]
-16:15:33.593 INFO - Executing: [get text: 0 [[ChromeDriver: chrome on WIN8_1 (9da7b3c261e4a5b297ff3b2ef0d4ffc6)] -> css selector: body]])
-16:15:33.736 INFO - Done: [get text: 0 [[ChromeDriver: chrome on WIN8_1 (9da7b3c261e4a5b297ff3b2ef0d4ffc6)] -> css selector: body]]
-16:15:33.758 INFO - Executing: [delete session: 95addc16-614a-4c71-a060-71ba5d9065b7])
-16:15:34.975 INFO - Done: [delete session: 95addc16-614a-4c71-a060-71ba5d9065b7]
+15:04:23.301 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+15:04:23.301 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+15:04:24.071 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+15:04:24.071 INFO - Selenium Server is up and running
+15:04:25.787 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Empty Trolley Digital Data, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+15:04:25.817 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Empty Trolley Digital Data, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver (v2.9.248315) on port 35524
+15:04:27.926 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Empty Trolley Digital Data, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+15:04:27.948 INFO - Executing: [get: http://int1.stbc2.jstest2.net/shop/gb/groceries])
+15:04:34.404 INFO - Done: [get: http://int1.stbc2.jstest2.net/shop/gb/groceries]
+15:04:34.414 INFO - Executing: [take screenshot])
+15:04:35.177 INFO - Done: [take screenshot]
+15:04:35.349 INFO - Executing: [find elements: By.cssSelector: body])
+15:04:35.396 INFO - Done: [find elements: By.cssSelector: body]
+15:04:35.404 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: body]])
+15:04:35.435 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: body]]
+15:04:35.444 INFO - Executing: [find element: By.cssSelector: #Rhs_signIn input[type="submit"]])
+15:04:35.468 INFO - Done: [find element: By.cssSelector: #Rhs_signIn input[type="submit"]]
+15:04:35.474 INFO - Executing: [click: 1 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: #Rhs_signIn input[type="submit"]]])
+15:04:35.517 INFO - Done: [click: 1 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: #Rhs_signIn input[type="submit"]]]
+15:04:35.533 INFO - Executing: [find elements: By.cssSelector: body])
+15:04:37.562 INFO - Done: [find elements: By.cssSelector: body]
+15:04:37.568 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: body]])
+15:04:38.687 WARN - Exception thrown
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'HOLBNT83969', ip: '192.168.213.40', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\RAJAN~1.LAM\AppData\Local\Temp\scoped_dir7324_26633}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=47.0.2526.106, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4fd3bb442b3602f0f9b357c5bd4fe413
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:368)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
+	at com.sun.proxy.$Proxy2.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.isDisplayed(EventFiringWebDriver.java:389)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy3.isDisplayed(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.GetElementDisplayed.call(GetElementDisplayed.java:32)
+	at org.openqa.selenium.remote.server.handler.GetElementDisplayed.call(GetElementDisplayed.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+15:04:38.693 WARN - Exception: stale element reference: element is not attached to the page document
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'HOLBNT83969', ip: '192.168.213.40', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\RAJAN~1.LAM\AppData\Local\Temp\scoped_dir7324_26633}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=47.0.2526.106, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4fd3bb442b3602f0f9b357c5bd4fe413
+15:04:38.760 INFO - Executing: [find elements: By.cssSelector: body])
+15:04:38.773 INFO - Done: [find elements: By.cssSelector: body]
+15:04:38.779 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: body]])
+15:04:38.806 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: body]]
+15:04:38.822 INFO - Executing: [take screenshot])
+15:04:39.129 INFO - Done: [take screenshot]
+15:04:39.171 INFO - Executing: [find element: By.cssSelector: #logonId])
+15:04:39.194 INFO - Done: [find element: By.cssSelector: #logonId]
+15:04:39.201 INFO - Executing: [send keys: 3 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: #logonId], [c, c, u, s, e, r, @, t, e, s, t, ., c, o, m]])
+15:04:39.349 INFO - Done: [send keys: 3 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: #logonId], [c, c, u, s, e, r, @, t, e, s, t, ., c, o, m]]
+15:04:39.356 INFO - Executing: [find element: By.cssSelector: #logonPassword])
+15:04:39.412 INFO - Done: [find element: By.cssSelector: #logonPassword]
+15:04:39.418 INFO - Executing: [send keys: 4 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: #logonPassword], [P, a, s, s, w, o, r, d, 1]])
+15:04:39.498 INFO - Done: [send keys: 4 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: #logonPassword], [P, a, s, s, w, o, r, d, 1]]
+15:04:39.505 INFO - Executing: [find element: By.cssSelector: #signIn input[type="submit"]])
+15:04:39.531 INFO - Done: [find element: By.cssSelector: #signIn input[type="submit"]]
+15:04:39.536 INFO - Executing: [click: 5 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: #signIn input[type="submit"]]])
+15:04:39.577 INFO - Done: [click: 5 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: #signIn input[type="submit"]]]
+15:04:40.594 INFO - Executing: [take screenshot])
+15:04:42.787 INFO - Done: [take screenshot]
+15:04:42.908 INFO - Executing: [find element: By.cssSelector: #search])
+15:04:42.939 INFO - Done: [find element: By.cssSelector: #search]
+15:04:42.945 INFO - Executing: [send keys: 6 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: #search], [a, p, p, l, e, s]])
+15:04:43.004 INFO - Done: [send keys: 6 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: #search], [a, p, p, l, e, s]]
+15:04:43.011 INFO - Executing: [find element: By.cssSelector: #searchSubmit])
+15:04:43.037 INFO - Done: [find element: By.cssSelector: #searchSubmit]
+15:04:43.043 INFO - Executing: [click: 7 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: #searchSubmit]])
+15:04:43.087 INFO - Done: [click: 7 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: #searchSubmit]]
+15:04:43.102 INFO - Executing: [find elements: By.cssSelector: body])
+15:04:44.211 INFO - Done: [find elements: By.cssSelector: body]
+15:04:44.220 INFO - Executing: [is displayed: 8 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: body]])
+15:04:44.885 WARN - Exception thrown
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 68 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'HOLBNT83969', ip: '192.168.213.40', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\RAJAN~1.LAM\AppData\Local\Temp\scoped_dir7324_26633}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=47.0.2526.106, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4fd3bb442b3602f0f9b357c5bd4fe413
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:368)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
+	at com.sun.proxy.$Proxy2.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.isDisplayed(EventFiringWebDriver.java:389)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy3.isDisplayed(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.GetElementDisplayed.call(GetElementDisplayed.java:32)
+	at org.openqa.selenium.remote.server.handler.GetElementDisplayed.call(GetElementDisplayed.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+15:04:44.890 WARN - Exception: stale element reference: element is not attached to the page document
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 68 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'HOLBNT83969', ip: '192.168.213.40', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\RAJAN~1.LAM\AppData\Local\Temp\scoped_dir7324_26633}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=47.0.2526.106, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4fd3bb442b3602f0f9b357c5bd4fe413
+15:04:44.963 INFO - Executing: [find elements: By.cssSelector: body])
+15:04:44.974 INFO - Done: [find elements: By.cssSelector: body]
+15:04:44.978 INFO - Executing: [is displayed: 9 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: body]])
+15:04:44.996 INFO - Done: [is displayed: 9 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: body]]
+15:04:45.003 INFO - Executing: [find element: By.cssSelector: ul.productLister li.gridItem:first-of-type input[type="submit"]])
+15:04:45.022 INFO - Done: [find element: By.cssSelector: ul.productLister li.gridItem:first-of-type input[type="submit"]]
+15:04:45.027 INFO - Executing: [click: 10 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: ul.productLister li.gridItem:first-of-type input[type="submit"]]])
+15:04:45.065 INFO - Done: [click: 10 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: ul.productLister li.gridItem:first-of-type input[type="submit"]]]
+15:04:45.073 INFO - Executing: [find elements: By.cssSelector: body])
+15:04:45.115 INFO - Done: [find elements: By.cssSelector: body]
+15:04:45.119 INFO - Executing: [is displayed: 9 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: body]])
+15:04:45.140 INFO - Done: [is displayed: 9 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: body]]
+15:04:45.147 INFO - Executing: [find element: By.cssSelector: #emptyTrolleyLink])
+15:04:45.576 INFO - Done: [find element: By.cssSelector: #emptyTrolleyLink]
+15:04:45.583 INFO - Executing: [click: 11 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: #emptyTrolleyLink]])
+15:04:45.632 INFO - Done: [click: 11 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: #emptyTrolleyLink]]
+15:04:45.649 INFO - Executing: [find elements: By.cssSelector: body])
+15:04:48.404 INFO - Done: [find elements: By.cssSelector: body]
+15:04:48.409 INFO - Executing: [is displayed: 9 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: body]])
+15:04:48.832 WARN - Exception thrown
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'HOLBNT83969', ip: '192.168.213.40', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\RAJAN~1.LAM\AppData\Local\Temp\scoped_dir7324_26633}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=47.0.2526.106, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4fd3bb442b3602f0f9b357c5bd4fe413
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:368)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
+	at com.sun.proxy.$Proxy2.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.isDisplayed(EventFiringWebDriver.java:389)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy3.isDisplayed(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.GetElementDisplayed.call(GetElementDisplayed.java:32)
+	at org.openqa.selenium.remote.server.handler.GetElementDisplayed.call(GetElementDisplayed.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+15:04:48.834 WARN - Exception: stale element reference: element is not attached to the page document
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'HOLBNT83969', ip: '192.168.213.40', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\RAJAN~1.LAM\AppData\Local\Temp\scoped_dir7324_26633}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=47.0.2526.106, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4fd3bb442b3602f0f9b357c5bd4fe413
+15:04:48.892 INFO - Executing: [find elements: By.cssSelector: body])
+15:04:48.904 INFO - Done: [find elements: By.cssSelector: body]
+15:04:48.908 INFO - Executing: [is displayed: 12 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: body]])
+15:04:48.926 INFO - Done: [is displayed: 12 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: body]]
+15:04:48.931 INFO - Executing: [find element: By.cssSelector: ul.emptyTrolley li:first-of-type a.button])
+15:04:48.949 INFO - Done: [find element: By.cssSelector: ul.emptyTrolley li:first-of-type a.button]
+15:04:48.953 INFO - Executing: [click: 13 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: ul.emptyTrolley li:first-of-type a.button]])
+15:04:48.997 INFO - Done: [click: 13 [[ChromeDriver: chrome on WIN8_1 (4fd3bb442b3602f0f9b357c5bd4fe413)] -> css selector: ul.emptyTrolley li:first-of-type a.button]]
+15:04:50.006 INFO - Executing: [take screenshot])
+15:04:51.202 INFO - Done: [take screenshot]
+15:04:51.237 INFO - Executing: [execute script: return digitalData, []])
+15:04:51.258 INFO - Done: [execute script: return digitalData, []]
+15:04:51.272 INFO - Executing: [delete session: e2794579-1d2f-4b8b-8ad3-59c138564ee8])
+15:04:52.742 INFO - Done: [delete session: e2794579-1d2f-4b8b-8ad3-59c138564ee8]

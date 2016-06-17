@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="6"
+<testsuites errors="2"
             failures="0"
             tests="12">
 
-  <testsuite name="login"
-    errors="6" failures="0" hostname="" id="" package="login" skipped="1"
-    tests="12" time="20.75" timestamp="Thu, 09 Jun 2016 12:56:08 GMT">
+  <testsuite name="emptyTrolleyDigitalData"
+    errors="2" failures="0" hostname="" id="" package="emptyTrolleyDigitalData" skipped="1"
+    tests="12" time="27.30" timestamp="Wed, 15 Jun 2016 14:04:24 GMT">
   
-    <testcase name="load ASM1" time="8.285" assertions="0">
+    <testcase name="load ASM1" time="9.893" assertions="0">
     </testcase>
       <system-err>
-         ERROR: Unable to locate element: &quot;#emptyTrolleyLink&quot; using: css selector
- ERROR: Unable to locate element: &quot;ul.emptyTrolley li:first-of-type a.button&quot; using: css selector
-  Error while running [Login / save digitalData - Empty trolley - Search]:
+          Error while running [Empty Trolley Digital Data / save digitalData - Empty trolley - Search]:
 
   Error: Unknown encoding: w+
     at assertEncoding (fs.js:123:11)
@@ -27,14 +25,12 @@
     at IncomingMessage.&lt;anonymous&gt; (C:\bkp\projects\git\PodamibeTest\node_modules\nightwatch\lib\http\request.js:155:16)
       </system-err>
   
-    <testcase name="click login button at RHS" time="0.1880" assertions="1">
+    <testcase name="click login button at RHS" time="0.1900" assertions="1">
 
     
     </testcase>
       <system-err>
-         ERROR: Unable to locate element: &quot;#emptyTrolleyLink&quot; using: css selector
- ERROR: Unable to locate element: &quot;ul.emptyTrolley li:first-of-type a.button&quot; using: css selector
-  Error while running [Login / save digitalData - Empty trolley - Search]:
+          Error while running [Empty Trolley Digital Data / save digitalData - Empty trolley - Search]:
 
   Error: Unknown encoding: w+
     at assertEncoding (fs.js:123:11)
@@ -49,14 +45,12 @@
     at IncomingMessage.&lt;anonymous&gt; (C:\bkp\projects\git\PodamibeTest\node_modules\nightwatch\lib\http\request.js:155:16)
       </system-err>
   
-    <testcase name="do login " time="3.348" assertions="1">
+    <testcase name="do login " time="4.056" assertions="1">
 
     
     </testcase>
       <system-err>
-         ERROR: Unable to locate element: &quot;#emptyTrolleyLink&quot; using: css selector
- ERROR: Unable to locate element: &quot;ul.emptyTrolley li:first-of-type a.button&quot; using: css selector
-  Error while running [Login / save digitalData - Empty trolley - Search]:
+          Error while running [Empty Trolley Digital Data / save digitalData - Empty trolley - Search]:
 
   Error: Unknown encoding: w+
     at assertEncoding (fs.js:123:11)
@@ -74,9 +68,7 @@
     <testcase name="load search page" time="0.006000" assertions="0">
     </testcase>
       <system-err>
-         ERROR: Unable to locate element: &quot;#emptyTrolleyLink&quot; using: css selector
- ERROR: Unable to locate element: &quot;ul.emptyTrolley li:first-of-type a.button&quot; using: css selector
-  Error while running [Login / save digitalData - Empty trolley - Search]:
+          Error while running [Empty Trolley Digital Data / save digitalData - Empty trolley - Search]:
 
   Error: Unknown encoding: w+
     at assertEncoding (fs.js:123:11)
@@ -91,12 +83,10 @@
     at IncomingMessage.&lt;anonymous&gt; (C:\bkp\projects\git\PodamibeTest\node_modules\nightwatch\lib\http\request.js:155:16)
       </system-err>
   
-    <testcase name="submit search button" time="3.330" assertions="0">
+    <testcase name="submit search button" time="3.501" assertions="0">
     </testcase>
       <system-err>
-         ERROR: Unable to locate element: &quot;#emptyTrolleyLink&quot; using: css selector
- ERROR: Unable to locate element: &quot;ul.emptyTrolley li:first-of-type a.button&quot; using: css selector
-  Error while running [Login / save digitalData - Empty trolley - Search]:
+          Error while running [Empty Trolley Digital Data / save digitalData - Empty trolley - Search]:
 
   Error: Unknown encoding: w+
     at assertEncoding (fs.js:123:11)
@@ -114,9 +104,7 @@
     <testcase name="load plp page" time="0.004000" assertions="0">
     </testcase>
       <system-err>
-         ERROR: Unable to locate element: &quot;#emptyTrolleyLink&quot; using: css selector
- ERROR: Unable to locate element: &quot;ul.emptyTrolley li:first-of-type a.button&quot; using: css selector
-  Error while running [Login / save digitalData - Empty trolley - Search]:
+          Error while running [Empty Trolley Digital Data / save digitalData - Empty trolley - Search]:
 
   Error: Unknown encoding: w+
     at assertEncoding (fs.js:123:11)
@@ -131,14 +119,12 @@
     at IncomingMessage.&lt;anonymous&gt; (C:\bkp\projects\git\PodamibeTest\node_modules\nightwatch\lib\http\request.js:155:16)
       </system-err>
   
-    <testcase name="add first product to the basket" time="1.910" assertions="1">
+    <testcase name="add first product to the basket" time="1.973" assertions="1">
 
     
     </testcase>
       <system-err>
-         ERROR: Unable to locate element: &quot;#emptyTrolleyLink&quot; using: css selector
- ERROR: Unable to locate element: &quot;ul.emptyTrolley li:first-of-type a.button&quot; using: css selector
-  Error while running [Login / save digitalData - Empty trolley - Search]:
+          Error while running [Empty Trolley Digital Data / save digitalData - Empty trolley - Search]:
 
   Error: Unknown encoding: w+
     at assertEncoding (fs.js:123:11)
@@ -153,14 +139,12 @@
     at IncomingMessage.&lt;anonymous&gt; (C:\bkp\projects\git\PodamibeTest\node_modules\nightwatch\lib\http\request.js:155:16)
       </system-err>
   
-    <testcase name="click on empty trolley link" time="0.3660" assertions="1">
+    <testcase name="click on empty trolley link" time="0.5690" assertions="1">
 
     
     </testcase>
       <system-err>
-         ERROR: Unable to locate element: &quot;#emptyTrolleyLink&quot; using: css selector
- ERROR: Unable to locate element: &quot;ul.emptyTrolley li:first-of-type a.button&quot; using: css selector
-  Error while running [Login / save digitalData - Empty trolley - Search]:
+          Error while running [Empty Trolley Digital Data / save digitalData - Empty trolley - Search]:
 
   Error: Unknown encoding: w+
     at assertEncoding (fs.js:123:11)
@@ -178,9 +162,7 @@
     <testcase name="load empty trolley confirmation" time="0.006000" assertions="0">
     </testcase>
       <system-err>
-         ERROR: Unable to locate element: &quot;#emptyTrolleyLink&quot; using: css selector
- ERROR: Unable to locate element: &quot;ul.emptyTrolley li:first-of-type a.button&quot; using: css selector
-  Error while running [Login / save digitalData - Empty trolley - Search]:
+          Error while running [Empty Trolley Digital Data / save digitalData - Empty trolley - Search]:
 
   Error: Unknown encoding: w+
     at assertEncoding (fs.js:123:11)
@@ -195,14 +177,12 @@
     at IncomingMessage.&lt;anonymous&gt; (C:\bkp\projects\git\PodamibeTest\node_modules\nightwatch\lib\http\request.js:155:16)
       </system-err>
   
-    <testcase name="click empty trolley confirmation link" time="0.6890" assertions="1">
+    <testcase name="click empty trolley confirmation link" time="3.355" assertions="1">
 
     
     </testcase>
       <system-err>
-         ERROR: Unable to locate element: &quot;#emptyTrolleyLink&quot; using: css selector
- ERROR: Unable to locate element: &quot;ul.emptyTrolley li:first-of-type a.button&quot; using: css selector
-  Error while running [Login / save digitalData - Empty trolley - Search]:
+          Error while running [Empty Trolley Digital Data / save digitalData - Empty trolley - Search]:
 
   Error: Unknown encoding: w+
     at assertEncoding (fs.js:123:11)
@@ -217,12 +197,10 @@
     at IncomingMessage.&lt;anonymous&gt; (C:\bkp\projects\git\PodamibeTest\node_modules\nightwatch\lib\http\request.js:155:16)
       </system-err>
   
-    <testcase name="save digitalData - Empty trolley - Search" time="2.619" assertions="0">
+    <testcase name="save digitalData - Empty trolley - Search" time="3.746" assertions="0">
     </testcase>
       <system-err>
-         ERROR: Unable to locate element: &quot;#emptyTrolleyLink&quot; using: css selector
- ERROR: Unable to locate element: &quot;ul.emptyTrolley li:first-of-type a.button&quot; using: css selector
-  Error while running [Login / save digitalData - Empty trolley - Search]:
+          Error while running [Empty Trolley Digital Data / save digitalData - Empty trolley - Search]:
 
   Error: Unknown encoding: w+
     at assertEncoding (fs.js:123:11)

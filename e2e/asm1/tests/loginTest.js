@@ -14,14 +14,16 @@ module.exports = {
     load: function(browser) {
         this.page = browser.page.login();
         this.page.navigate();
-        browser.saveScreenshot('e2e/asm1/screenshots/login/loadAsm1.png');
+        browser.saveScreenshot('e2e/asm1/screenshots/EmptyTrolley/login.png');
     },
     preLogin: function(browser) {
-        browser.pause(1000);
+        //browser.pause(1000);
+        browser.waitForElementVisible('body', 500);
         this.page.click('@preLoginBtn');
     },
     login: function(browser) {
-        browser.pause(1000);
+        //browser.pause(1000);
+        browser.waitForElementVisible('body', 500);
         browser.saveScreenshot('e2e/asm1/screenshots/login/login.png');
 
         this.page.setValue('@userNameTxt', 'ccuser@test.com');
@@ -29,7 +31,8 @@ module.exports = {
         this.page.click('@loginBtn');
     },
     checkLogin: function (browser) {
-        browser.pause(2000);
+        //browser.pause(1000);
+        browser.waitForElementVisible('body', 500);
         this.page
             //.assert.title("Sainsbury's online Grocery Shopping and Fresh Food Delivery")
             .assert.visible('@homepage')
@@ -50,8 +53,8 @@ module.exports = {
             })
     },
     checkDigitalData: function(browser) {
-        browser.pause(1000);
-
+        //browser.pause(1000);
+        browser.waitForElementVisible('body', 500);
         var self = this;
         browser.getText("body", function(result) {
             this.assert.equal('check digitalData properties, type and value', 'check digitalData properties, type and value');
